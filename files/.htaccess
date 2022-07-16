@@ -1,0 +1,4 @@
+<Files "\.(inc|sql|php)$">
+ order allow,deny
+ deny from all
+</Files>

@@ -1,0 +1,87 @@
+#eapps-google-reviews-b47441c1-fe4e-4157-afb0-d75030bcc30d [class^="ReviewContainer__Inner-sc"] {
+    width: unset;
+    max-width: unset !important;
+}
+
+.tm-page {
+    border-width: 0px !important;
+}
+
+.custom {
+    width: 100%;
+    margin-left: -4%;
+}
+
+.uk-link,
+a {
+    margin-right: 10px;
+    color: #000000;
+}
+
+.phones ul::after {
+    display: block;
+    position: absolute;
+    content: '';
+    transition: ease all 0.2s;
+}
+
+.phones ul li {
+    display: none;
+}
+
+.phones ul li:nth-child(1) {
+    display: block;
+}
+
+.phones:hover ul,
+.phones:focus ul {
+    border-top: 0px;
+}
+
+.phones:hover ul::after,
+.phones:focus ul::after {
+    transform: rotate(180deg);
+}
+
+.phones:hover ul li,
+.phones:focus ul li {
+    display: block;
+}
+
+.tm-top {
+    padding: 0;
+    width: 60%;
+    margin: -10px -15px;
+}
+
+.custom_2 {
+    margin-right: 1%;
+    margin-left: 2.2%;
+    width: 100%;
+}
+
+.custom_3 {
+    margin-left: 10px;
+}
+
+@media (min-width: 960px) {
+    .tm-top {
+        display: none !important;
+    }
+}
+
+@media (max-width:639px) {
+    .uk-visible\@s {
+        display: block !important
+    }
+
+    .custom_2 {
+        margin-right: 0;
+        margin-left: 0;
+        width: 72%;
+    }
+
+    .custom_3 {
+        margin: 0;
+    }
+}

@@ -1,0 +1,125 @@
+﻿<footer>
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+            <div class=fot-content>
+                <div id=foot-block1><p>© 2010-{$smarty.now|date_format:"%Y"} www.kdr.kiev.ua<br>Все права защищены</div>
+                <div id=foot-img1><img src="{#imgDir#}footer-flash.png" alt="Восстановление данных с флешки"></div>
+                <div id=contact-foot><p>Тел моб.: +38(063)075-93-03  e-mail: info@kdr.kiev.ua Тел:(099)095-14-04<br>г.Киев, ул.Бориспольская 12В, офис 8</div>
+                <div id=foot-img2><img src="{#imgDir#}razrab.png" alt="Восстановление данных с флешки, карт памяти"></div>
+            </div>
+    </footer>
+     
+</div>
+
+<div class="feedback">
+        <a href="#">Обратная связь</a>
+    </div>
+	
+	<div class="scrollup" title="Наверх"></div>
+	
+<!-- direct metrika -->
+<noindex>
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter36178105 = new Ya.Metrika({
+                    id:36178105,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true,
+                    trackHash:true,
+                    ecommerce:"dataLayer"
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+</noindex>
+<noscript><div><img src="https://mc.yandex.ru/watch/36178105" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /direct metrika -->
+    <!-- Yandex.Metrika counter -->
+<noindex><script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter14128423 = new Ya.Metrika({id:14128423,
+                    clickmap:true,
+                    accurateTrackBounce:true, webvisor:true});
+        } catch(e) {}
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+</noindex>
+{literal}
+<noindex>
+<noscript><div><img src="//mc.yandex.ru/watch/14128423" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+</noindex>
+{/literal}
+<!-- /Yandex.Metrika counter -->
+        </center>
+    {/literal}
+{literal}
+	<!-- Facebook Pixel Code -->
+<noindex>
+	<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '627479420762175');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=627479420762175&ev=PageView&noscript=1"
+/></noscript>
+</noindex>
+<!-- End Facebook Pixel Code -->
+{/literal}
+
+
+<!-- Код тега ремаркетинга Google -->
+<!--------------------------------------------------
+С помощью тега ремаркетинга запрещается собирать информацию, по которой можно идентифицировать личность пользователя. Также запрещается размещать тег на страницах с контентом деликатного характера. Подробнее об этих требованиях и о настройке тега читайте на странице http://google.com/ads/remarketingsetup.
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 939052228;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/939052228/?value=0&guid=ON&script=0"/>
+</div>
+</noscript>
+
+    name: Карта сайта*}<div class="copy"><a href="http://kdr.kiev.ua/sitemap/"Карта сайта"></a></div>
+    </body>
+    </html>

@@ -1,0 +1,64 @@
+# If the Joomla site is installed within a folder
+# eg www.example.com/joomla/ then the robots.txt file
+# MUST be moved to the site root
+# eg www.example.com/robots.txt
+# AND the joomla folder name MUST be prefixed to all of the
+# paths.
+# eg the Disallow rule for the /administrator/ folder MUST
+# be changed to read
+# Disallow: /joomla/administrator/
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/orig.html
+#
+# For syntax checking, see:
+# http://tool.motoricerca.info/robots-checker.phtml
+
+User-agent: *
+Disallow: /administrator/
+Disallow: /bin/
+Disallow: /cache/
+Disallow: /cli/
+Disallow: /components/
+Disallow: /includes/
+Disallow: /installation/
+Disallow: /language/
+Disallow: /layouts/
+Disallow: /libraries/
+Disallow: /logs/
+Disallow: /modules/
+Disallow: /plugins/
+Disallow: /tmp/
+Disallow: /cdn-cgi/l/email-protection/
+Disallow: /vazhno-znat?start=*
+Disallow: /nasha-laboratoriya?start=*
+Disallow: /kejsy?start=*
+Disallow: /*fb_comment_id*
+Disallow: /kto-takie-kiev-data-recovery?view=category&id=29
+Disallow: /uk/alhorytm-roboty-z-kliyentamy?view=article&id=514:akt-tekhnichnoji-ekspertizi-na-fleshki-hdd&catid=36
+Disallow: /vosstanolenie-ssd-diskov/vosstanovlenie-dannykh-s-ssd
+Disallow: /uk/kejsu/vidnovlennya-danikh-z-zhorstkikh-diskiv-western-digital-uspishna-praktika-i-kejsi-2
+Disallow: /vosstanolenie-s-telefonov?view=article&id=291:vosstanovlenie-dannykh-s-android-plansheta&catid=32
+Disallow: /uk/posluhy?view=article&id=617:kejsi&catid=9
+Disallow: /uk/posluhy?view=category&id=9
+Disallow: /uslugi?view=category&id=2
+Disallow: /uslugi?view=article&id=616:kejsy&catid=2
+Disallow: /algoritm-raboty-s-klientami?view=article&id=330:akt-tekhnicheskoj-ekspertizy&catid=29
+Disallow: /kto-takie-kiev-data-recovery?view=article&id=330:akt-tekhnicheskoj-ekspertizy&catid=29
+Disallow: /konfidetsialnost-dannykh?view=article&id=330:akt-tekhnicheskoj-ekspertizy&catid=29
+Disallow: /konfidetsialnost-dannykh?view=category&id=29
+Disallow: /algoritm-raboty-s-klientami?view=category&id=29
+Disallow: /news?view=article&id=616:kejsy&catid=2
+Disallow: /?Itemid=153
+Disallow: /uk/tsiny?view=article&id=617:kejsi&catid=9
+Disallow: /uk/porady-ta-rekomendatsii?start=*
+Disallow: /uk/kejsu?start=*
+Disallow: /uk/vazhlivo-znati?start=*
+Disallow: /vosstanolenie-s-kart-pamyati/vosstanovlenie-dannykh-s-kart-pamyati
+Disallow: /vazhno-znat/akt-tekhnicheskoj-ekspertizy
+Disallow: /?fb_comment_id=1874980025893020_2171093689614984
+Disallow: /nasha-laboratoriya?start=5
+Disallow: /?fb_comment_id=1874980025893020_2898990186825327
+
+Host: kdr.kiev.ua
+https://kdr.kiev.ua/sitemap.xml
