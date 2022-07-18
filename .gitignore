@@ -1,5 +1,7 @@
 plugins/
 administrator/
+components/
+files/
 
 
 # Logs
