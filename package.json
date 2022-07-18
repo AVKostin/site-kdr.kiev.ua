@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /site-kdr.kiev.ua-20220705_images/"
+    "build": "parcel build src/*.html --public-url /site-kdr.kiev.ua-20220705_images/",
     "lint:js": "eslint src/**/*.{js,jsx}",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
