@@ -9,7 +9,6 @@ libraries/
 media/
 modules/
 templates/
-!templates/yootheme/*
 images/shared/.tmb
 # !images/2020/*
 
