@@ -1,0 +1,22 @@
+{
+  "name": "site-kdr.kiev.ua-20220705_images",
+  "version": "1.0.0",
+  "description": "1- What is this? \t* This is a Joomla! installation/upgrade package to version 3.x \t* Joomla! Official site: https://www.joomla.org \t* Joomla! 3.10 version history - https://docs.joomla.org/Special:MyLanguage/Joomla_3.10_version_history \t* Detailed changes in the Changelog: https://github.com/joomla/joomla-cms/commits/3.10-dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /site-kdr.kiev.ua-20220705_images/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AVKostin/site-kdr.kiev.ua-20220705_images.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AVKostin/site-kdr.kiev.ua-20220705_images/issues"
+  },
+  "homepage": "https://github.com/AVKostin/site-kdr.kiev.ua-20220705_images#readme"
+}
