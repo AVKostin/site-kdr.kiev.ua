@@ -11328,13 +11328,13 @@ body {
     }
 }
 
-@media (min-width: 1560px) {
+@media (min-width: 1091px) {
     .tm-page-container {
         background-color: #272727
     }
 
     .tm-page-container .tm-page {
-        max-width: 1560px;
+        max-width: 1091px;
         background: #fff
     }
 
