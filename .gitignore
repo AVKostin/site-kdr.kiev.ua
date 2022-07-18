@@ -10,8 +10,8 @@ media/
 modules/
 templates/
 !templates/yootheme/*
-images/
-!images/2020/*
+# images/
+# !images/2020/*
 
 
 
