@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/AVKostin/site-kdr.kiev.ua-20220705_images/issues"
   },
-  "homepage": "https://github.com/AVKostin/site-kdr.kiev.ua-20220705_images#readme"
+  "homepage": "https://github.com/AVKostin/site-kdr.kiev.ua-20220705_images#readme",
+  "dependencies": {
+    "eslint": "^8.20.0"
+  }
 }
