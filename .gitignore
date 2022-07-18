@@ -2,6 +2,15 @@ plugins/
 administrator/
 components/
 files/
+installation/
+language/
+layouts/
+libraries/
+media/
+modules/
+templates/
+images/
+
 
 
 # Logs
