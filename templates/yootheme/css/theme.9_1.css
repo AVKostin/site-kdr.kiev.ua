@@ -352,38 +352,6 @@ template {
     display: none
 }
 
-/* =========================================================================================== */
-.uk-nav-default>li>a {
-    color: #6c6d74;
-    transition: .1s ease-in-out;
-    transition-property: color, background-color, border-color, box-shadow;
-}
-
-.uk-nav>li>a {
-    padding: 8px 0;
-}
-
-.uk-nav li>a {
-    display: block;
-    text-decoration: none;
-}
-
-.uk-link,
-a {
-    margin-right: 10px;
-    color: #000;
-}
-
-.dropdown-menu,
-.uk-nav,
-.uk-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-/* =========================================================================================== */
-
 .uk-breakpoint-s::before {
     content: '380px'
 }
@@ -2150,7 +2118,7 @@ input[type=checkbox]:not([class*=uk-]):disabled:indeterminate {
     .uk-container {
         /* padding-left: 40px;
         padding-right: 40px; */
-        width: 1043px;
+        width: 918px;
     }
 }
 
@@ -2736,7 +2704,30 @@ input[type=checkbox]:not([class*=uk-]):disabled:indeterminate {
 .uk-card-default {
     background: #fff;
     color: #6c6d74;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .08)
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+    /* max-width: 440px; */
+    margin: 0 auto;
+}
+
+@media (min-width: 480px) {
+
+    .uk-card-default {
+        width: 440px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .uk-card-default {
+        width: 720px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .uk-card-default {
+        width: 950px;
+    }
 }
 
 .uk-card-default .uk-card-title {
@@ -2797,10 +2788,10 @@ input[type=checkbox]:not([class*=uk-]):disabled:indeterminate {
 
 @media (min-width: 1200px) {
 
-    .uk-card-large .uk-card-body,
+    /* .uk-card-large .uk-card-body,
     .uk-card-large.uk-card-body {
         padding: 70px 70px
-    }
+    } */
 
     .uk-card-large .uk-card-header {
         padding: 35px 70px
@@ -11392,7 +11383,8 @@ body {
 }
 
 .tm-toolbar-default {
-    background: #00aff2
+    background: #00aff2;
+    display: none;
 }
 
 .tm-header {
