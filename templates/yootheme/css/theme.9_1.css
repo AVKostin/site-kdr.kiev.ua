@@ -352,6 +352,38 @@ template {
     display: none
 }
 
+/* =========================================================================================== */
+.uk-nav-default>li>a {
+    color: #6c6d74;
+    transition: .1s ease-in-out;
+    transition-property: color, background-color, border-color, box-shadow;
+}
+
+.uk-nav>li>a {
+    padding: 8px 0;
+}
+
+.uk-nav li>a {
+    display: block;
+    text-decoration: none;
+}
+
+.uk-link,
+a {
+    margin-right: 10px;
+    color: #000;
+}
+
+.dropdown-menu,
+.uk-nav,
+.uk-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* =========================================================================================== */
+
 .uk-breakpoint-s::before {
     content: '380px'
 }
