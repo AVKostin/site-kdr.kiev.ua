@@ -555,6 +555,104 @@ a.uk-link-text:not(:hover) {
     flex: auto
 }
 
+
+/* =============================== */
+.uk-nav-default:only-child {
+    margin-top: -5px;
+    margin-bottom: -5px
+}
+
+.uk-nav-default {
+    padding-left: 35px
+}
+
+.uk-nav-default>li>a {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.uk-card-small>.uk-nav-default {
+    margin-left: -20px;
+    margin-right: -20px
+}
+
+@media (min-width: 1200px) {
+    .uk-card-body>.uk-nav-default {
+        margin-left: -40px;
+        margin-right: -40px
+    }
+
+    .uk-card-body>.uk-nav-default:only-child {
+        margin-top: -25px;
+        margin-bottom: -25px
+    }
+
+    .uk-nav-default>li>a {
+        padding-left: 40px;
+        padding-right: 40px
+    }
+
+    .uk-nav-default {
+        padding-left: 55px
+    }
+}
+
+@media (min-width: 1200px) {
+    .uk-card-large>.uk-nav-default {
+        margin: 0
+    }
+
+    .uk-card-large>.uk-nav-default:only-child {
+        margin: 0
+    }
+
+    .uk-card-large .uk-nav-default .uk-nav-divider,
+    .uk-card-large .uk-nav-default .uk-nav-header,
+    .uk-card-large .uk-nav-default>li>a {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .uk-card-large .uk-nav-default .uk-nav-sub {
+        padding-left: 15px
+    }
+}
+
+/* ========================= */
+
+.uk-nav-default>li>a {
+    color: #6c6d74;
+    transition: .1s ease-in-out;
+    transition-property: color, background-color, border-color, box-shadow;
+}
+
+.uk-nav>li>a {
+    padding: 8px 0;
+}
+
+.uk-nav li>a {
+    display: block;
+    text-decoration: none;
+}
+
+.uk-link,
+a {
+    margin-right: 10px;
+    color: #000;
+}
+
+.dropdown-menu,
+.uk-nav,
+.uk-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* =============================== */
+
+
+
 .uk-tile {
     position: relative;
     box-sizing: border-box;
@@ -658,8 +756,20 @@ a.uk-link-text:not(:hover) {
 .uk-card-default {
     background: #fff;
     color: #6c6d74;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .08)
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+    max-width: 440px;
+    margin: 0 auto;
 }
+
+
+@media (min-width: 768px) {
+
+    .uk-card-default {
+        width: 740px;
+    }
+}
+
+
 
 .uk-card-default .uk-card-title {
     color: #2d2e33
