@@ -77,6 +77,115 @@
   font-style: normal
 }
 
+/* google translate */
+body {
+  top: 0 !important;
+  /* position: static !important; */
+}
+
+/* Прячем панель гугла */
+
+.skiptranslate {
+  display: none !important;
+  height: 0px !important;
+  height: 0px;
+}
+
+/* Убираем подсветку ссылок */
+
+.goog-text-highlight {
+  background-color: inherit;
+  box-shadow: none;
+  box-sizing: inherit;
+}
+
+/* language */
+
+.language {
+  position: fixed;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.language__img {
+  margin: 2px;
+  cursor: pointer;
+  opacity: .5;
+}
+
+.language__img:hover,
+.language__img_active {
+  opacity: 1;
+}
+
+/* google translate */
+
+/* HERO-IMG-CUSTOM_BG */
+.hero-img {
+  max-width: 1600px;
+  margin: 0 auto;
+  background: #2f303a;
+  background-image: linear-gradient(rgba(0, 96, 219, 0.72),
+      rgba(0, 96, 219, 0.72)),
+    url(/images/kdr-baner/recovery-kdr-kiev-mob-1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .hero-img {
+    background-image: linear-gradient(rgba(0, 96, 219, 0.72),
+        rgba(0, 96, 219, 0.72)),
+      url(/images/kdr-baner/recovery-kdr-kiev-mob-2x.jpg);
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .hero-img {
+    background-image: linear-gradient(rgba(0, 96, 219, 0.72),
+        rgba(0, 96, 219, 0.72)),
+      url(/images/kdr-baner/recovery-kdr-kiev-tab-1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero-img {
+      background-image: linear-gradient(rgba(0, 96, 219, 0.72),
+          rgba(0, 96, 219, 0.72)),
+        url(/images/kdr-baner/recovery-kdr-kiev-tab-2x.jpg);
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-img {
+    background-image: linear-gradient(rgba(0, 96, 219, 0.72),
+        rgba(0, 96, 219, 0.72)),
+      url(/images/kdr-baner/recovery-kdr-kiev-1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero-img {
+      background-image: linear-gradient(rgba(0, 96, 219, 0.72),
+          rgba(0, 96, 219, 0.72)),
+        url(/images/kdr-baner/recovery-kdr-kiev-2x.jpg);
+    }
+  }
+}
+
+/* END OF CUSTOM HERO-BG */
+
+
 [data-icon]:before {
   font-family: IcoMoon;
   content: attr(data-icon);
@@ -17943,7 +18052,7 @@ body {
 }
 
 .custom {
-  width: 100%;
+  width: 250px;
   margin-left: -4%
 }
 
