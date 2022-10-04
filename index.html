@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru-ru" dir="ltr" vocab="http://schema.org/">
+<html lang="uk-UK" dir="ltr" vocab="http://schema.org/">
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -68,6 +68,21 @@
             var $theme = {};
         </script>
         <link rel="canonical" href="https://kdr.kiev.ua/" />
+
+        <!--  google-translate -->
+        <style type="text/css">
+            .goog-te-banner-frame {
+                height: 0px !important;
+                top: 0px !important;
+            }
+        </style>
+
+        <!-- <link rel="stylesheet" href="/css/google-translate.css" /> -->
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+        <script src="templates/yootheme/js/google-translate.js"></script>
+        <!-- <script src="//translate.google.com/translate_a/element.js?cb=TranslateInit"></script> -->
+
+        <!--  END google-translate -->
     </head>
 
     <body class="">
@@ -2609,6 +2624,31 @@
                                     uk-scrollspy-class
                                 >
                                     <div class="mod-languages">
+                                        <!-- Start of translator -->
+                                        <div class="language">
+                                            <img
+                                                src="/media/mod_languages/images/ru_ru.gif"
+                                                alt="Руськiї Росія"
+                                                title="Руськiї Росія"
+                                                data-google-lang="ru"
+                                                class="language__img"
+                                            />
+                                            <!-- <img
+                    src="images/lang/lang__en.png"
+                    alt="en"
+                    data-google-lang="en"
+                    class="language__img"
+                /> -->
+                                            <img
+                                                src="/media/mod_languages/images/uk_ua.gif"
+                                                alt="Українська (Україна)"
+                                                title="Українська (Україна)"
+                                                src="images/lang/lang__de.png"
+                                                data-google-lang="uk"
+                                                class="language__img"
+                                            />
+                                        </div>
+                                        <!-- end of translator -->
                                         <ul class="lang-inline" dir="ltr">
                                             <li>
                                                 <a href="/uk/">
@@ -2682,5 +2722,6 @@
             })(window, document, "clarity", "script", "akxo73urd2");
         </script>
         <script defer="defer" src="/templates/yootheme/css/to-top.js"></script>
+        <!-- <script defer="defer" src="/js/translate_goo.js"></script> -->
     </body>
 </html>
