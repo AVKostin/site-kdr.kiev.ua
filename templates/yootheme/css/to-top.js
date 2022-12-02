@@ -19,7 +19,6 @@ function scrollTo(to, duration = 700) {
         start = element.scrollTop,
         change = to - start,
         startDate = +new Date(),
-        // b = start value
         // c = change in value
         // d = duration
         easeInOutQuad = function (t, b, c, d) {
