@@ -57,7 +57,7 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $session_handler = 'none';
-	public $sitename = 'Kiev Data Recovery| 099-095-14-04';
+	public $sitename = 'Kiev Data Recovery | 099-095-14-04';
 	public $sitename_pagetitles = '2';
 	public $smtpauth = '0';
 	public $smtphost = 'localhost';
