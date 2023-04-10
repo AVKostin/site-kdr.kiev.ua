@@ -8,7 +8,6 @@ AddDefaultCharset UTF-8
 # Joomla! is Free Software
 ##
 
-
 #####################################################
 #  READ THIS COMPLETELY IF YOU CHOOSE TO USE THIS FILE
 #
@@ -69,13 +68,8 @@ RewriteRule ^(.+)/$ /$1 [R=301,L]
   ExpiresByType diagram/gif "now”.
 </IfModule>
 
-
-
-
 ## END OF CASHE MODULE EXPRESS ##
 ############################################################
-
-
 
 ########## Begin - Rewrite rules to block out some common exploits
 ## If you experience problems on your site block out the operations listed below
@@ -133,7 +127,6 @@ RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
 RewriteCond %{SERVER_PORT}>s ^(443>(s)|[0-9]+>s)$
 RewriteRule ^index\.php$ https://kdr.kiev.ua/ [R=301,L]
 
-
 #
 ########## End - 3rd Party SEF Section
 
@@ -146,7 +139,6 @@ RewriteCond %{REQUEST_URI} (/|\.htm|\.php|\.html|/[^.]*)$ [NC]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule (.*) index.php
-
 
 #
 ########## End - 3rd Party SEF Section
